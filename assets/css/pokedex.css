@@ -86,6 +86,14 @@
     border-radius: 1rem;
 }
 
+.pokemon:hover {
+    opacity: 100%;
+    transform: scale(1.04);
+    transition: 1000ms;
+    transform: rotate(-15deg);
+    transition: 1000ms;
+}
+
 .pokemon .number {
     color: #000;
     opacity: .3;
